@@ -604,7 +604,7 @@
     "@polkadot/util-crypto" "^8.7.1"
     rxjs "^7.5.5"
 
-"@polkadot/api@7.15.1":
+"@polkadot/api@7.15.1", "@polkadot/api@^7.15.1":
   version "7.15.1"
   resolved "https://registry.yarnpkg.com/@polkadot/api/-/api-7.15.1.tgz#24eaeaa8ffbc6f30ff3d9846a816a18a688ceb8b"
   integrity sha512-z0z6+k8+R9ixRMWzfsYrNDnqSV5zHKmyhTCL0I7+1I081V18MJTCFUKubrh0t1gD0/FCt3U9Ibvr4IbtukYLrQ==
@@ -734,7 +734,7 @@
     "@babel/runtime" "^7.17.8"
     "@polkadot/util" "^8.7.1"
 
-"@polkadot/types@7.15.1":
+"@polkadot/types@7.15.1", "@polkadot/types@^7.15.1":
   version "7.15.1"
   resolved "https://registry.yarnpkg.com/@polkadot/types/-/types-7.15.1.tgz#fb78886f4437fbc472e01019846fb1f229d2a177"
   integrity sha512-KawZVS+eLR1D6O7c/P5cSUwr6biM9Qd2KwKtJIO8l1Mrxp7r+y2tQnXSSXVAd6XPdb3wVMhnIID+NW3W99TAnQ==
@@ -3159,10 +3159,10 @@ ipfs-http-client@^52.0.3:
     stream-to-it "^0.2.2"
     uint8arrays "^3.0.0"
 
-ipfs-unixfs@^6.0.3:
-  version "6.0.9"
-  resolved "https://registry.yarnpkg.com/ipfs-unixfs/-/ipfs-unixfs-6.0.9.tgz#f6613b8e081d83faa43ed96e016a694c615a9374"
-  integrity sha512-0DQ7p0/9dRB6XCb0mVCTli33GzIzSVx5udpJuVM47tGcD+W+Bl4LsnoLswd3ggNnNEakMv1FdoFITiEnchXDqQ==
+ipfs-unixfs@6.0.6, ipfs-unixfs@^6.0.3:
+  version "6.0.6"
+  resolved "https://registry.yarnpkg.com/ipfs-unixfs/-/ipfs-unixfs-6.0.6.tgz#c44881c1bcd6a474c665e67108cbf31e54c63eec"
+  integrity sha512-gTkjYKXuHnqIf6EFfS+ESaYEl3I3aaQQ0UX8MhpNzreMLEuMnuqpoI/uLLllTZa31WRplKixabbpRTSmTYRNwA==
   dependencies:
     err-code "^3.0.1"
     protobufjs "^6.10.2"
@@ -3849,16 +3849,16 @@ mock-socket@^9.1.2:
   integrity sha512-zc7jF8FId8pD9ojxWLcXrv4c2nEFOb6o8giPb45yQ6BfQX1tWuUktHNFSiy+KBt0VhYtHNt5MFIzclt0LIynEA==
 
 moment-timezone@^0.5.34:
-  version "0.5.34"
-  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.34.tgz#a75938f7476b88f155d3504a9343f7519d9a405c"
-  integrity sha512-3zAEHh2hKUs3EXLESx/wsgw6IQdusOT8Bxm3D9UrHPQR7zlMmzwybC8zHEM1tQ4LJwP7fcxrWr8tuBg05fFCbg==
+  version "0.5.37"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.37.tgz#adf97f719c4e458fdb12e2b4e87b8bec9f4eef1e"
+  integrity sha512-uEDzDNFhfaywRl+vwXxffjjq1q0Vzr+fcQpQ1bU0kbzorfS7zVtZnCnGc8mhWmF39d4g4YriF6kwA75mJKE/Zg==
   dependencies:
     moment ">= 2.9.0"
 
 "moment@>= 2.9.0", moment@^2.29.1:
-  version "2.29.3"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.3.tgz#edd47411c322413999f7a5940d526de183c031f3"
-  integrity sha512-c6YRvhEo//6T2Jz/vVtYzqBzwvPT95JBQ+smCytzf7c50oMZRsR/a4w88aD34I+/QVSfnoAnSBFPJHItlOMJVw==
+  version "2.29.4"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
+  integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
 
 ms@2.0.0:
   version "2.0.0"
